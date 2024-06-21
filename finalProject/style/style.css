@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    direction: ltr;
+}
+
+
+.Myaccordion {
+    height: 500px;
+}
+
+
+#my_inbox {
+    margin-left: 1px;
+    padding: 23px 11px;
+    border: none;
+    background-color: #ffffff;
+   
+}
+
+#my_inbox:hover {
+    background-color: #8c8c8c;
+}
+
+#MyinboxIcon {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 4px;
+    margin-left: 1px;
+
+}
+.tab {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.tab button {
+
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 23px 31px;
+    width: 100%;
+    border: none;
+}
+
+#caret-down {
+    margin-left: 14px;
+}
+
+.card {
+    border: none;
+}
+
+
+.tab button.active {
+    background-color: #000000;
+    color: white;
+}
+
+.tab button:hover {
+    background-color: #8c8c8c;
+}
+
+#new-message:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+.tabcontent {
+    border: 1px solid #ccc;
+    border-left: none;
+    height: 100%;
+}
+
+
+
+.detail {
+    display: flex;
+    color: gray;
+}
+
+.card-body {
+    border-bottom: 2px solid gray;
+}
+
+#new-message {
+    background-color: #5f5f5f;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.content {
+    display: none;
+    margin-right: 39%;
+}
+.modal-header {
+    background-color: rgb(250, 2, 2);
+}
+
+.text p {
+    max-width: 100%;
+}
+
+.icons {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+.Myavatars {
+    
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.btn-close {
+    padding: 22px;
+}
+
+
+.btn-close:hover {
+    background-color: #c0c0c0;
+    padding: 22px;
+}
+
+#myModal {
+    animation: animatezoom 0.6s;
+}
